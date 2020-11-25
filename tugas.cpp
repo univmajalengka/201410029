@@ -22,6 +22,22 @@ int main()
 		cin>>b;
 		c=a-b;
 		cout<<c;
+	}else if(menu==3){
+		cin>>a;
+		cin>>b;
+		c=a*b;
+		cout<<c;
+	}else if(menu==4){
+		cin>>a;
+		cin>>b;
+		c=a/b;
+		cout<<c;
+	}else if(menu==5){
+		cin>>a;
+		cin>>b;
+		c=a%b;
+		cout<<c;
+	}
 	}else{
 		cout<<"Menu Tidak Ada";
 	}
